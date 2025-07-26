@@ -1,12 +1,70 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🥗 GreenFork — Healthy Restaurant Web App
 
-Currently, two official plugins are available:
+[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/Peippo1/GreenFork-Healthy-Restaurant-POC/deploy.yml?branch=main&label=build)](https://github.com/Peippo1/GreenFork-Healthy-Restaurant-POC/actions)
+![License](https://img.shields.io/github/license/Peippo1/GreenFork-Healthy-Restaurant-POC)
+![React](https://img.shields.io/badge/frontend-react-blue)
+![FastAPI](https://img.shields.io/badge/backend-fastapi-green)
+![Tailwind](https://img.shields.io/badge/css-tailwindcss-38b2ac)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+GreenFork is a responsive full-stack proof-of-concept web app for a healthy food restaurant. It features a clean frontend built with Vite + React + Tailwind CSS, and a FastAPI backend for handling contact form submissions stored securely in a SQLite database.
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Hero section with animated intro
+- Responsive menu and food gallery
+- Contact form that posts to a FastAPI backend
+- Anonymized data storage
+- Clean, mobile-friendly design
+
+## 🛠 Tech Stack
+
+| Frontend        | Backend       | Styling       | Tooling       |
+|----------------|---------------|---------------|---------------|
+| React (Vite)   | FastAPI       | Tailwind CSS  | SQLite        |
+| React Router   | Uvicorn       | Unsplash imgs | Python 3.12+  |
+
+## 🚀 Local Development
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/Peippo1/GreenFork-Healthy-Restaurant-POC.git
+cd GreenFork-Healthy-Restaurant-POC
+```
+
+### 2. Start the frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### 3. Start the backend
+
+```bash
+cd backend
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt  # or manually install
+uvicorn main:app --reload
+```
+
+The backend will be available at `http://localhost:8000` and the frontend at `http://localhost:5173`.
+
+## 📦 API Endpoint
+
+- `POST /api/contact`: Accepts `{ name, email, message }` and stores anonymized entry
+
+## 📸 Screenshots
+
+_Add screenshots of the homepage, menu, and contact form here._
+
+## 🙌 Credits
+
+- Food & farm imagery by [Unsplash](https://unsplash.com)
+- Created by Tim Finch for a POC project
+
+---
+🥬 Built with love for fresh, seasonal food 🌾
