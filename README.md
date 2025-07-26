@@ -1,8 +1,9 @@
 
 # 🥗 GreenFork — Healthy Restaurant Web App
 
-[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/Peippo1/GreenFork-Healthy-Restaurant-POC/deploy.yml?branch=main&label=build)](https://github.com/Peippo1/GreenFork-Healthy-Restaurant-POC/actions)
-![License](https://img.shields.io/github/license/Peippo1/GreenFork-Healthy-Restaurant-POC)
+<!-- Replace `your-workflow.yml` with your actual workflow filename -->
+[![Build](https://github.com/Peippo1/GreenFork-Healthy-Restaurant-POC/actions/workflows/your-workflow.yml/badge.svg)](https://github.com/Peippo1/GreenFork-Healthy-Restaurant-POC/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![React](https://img.shields.io/badge/frontend-react-blue)
 ![FastAPI](https://img.shields.io/badge/backend-fastapi-green)
 ![Tailwind](https://img.shields.io/badge/css-tailwindcss-38b2ac)
@@ -68,3 +69,7 @@ _Add screenshots of the homepage, menu, and contact form here._
 
 ---
 🥬 Built with love for fresh, seasonal food 🌾
+
+## 📝 License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
