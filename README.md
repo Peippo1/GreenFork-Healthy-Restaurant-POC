@@ -1,8 +1,8 @@
 
 # 🥗 GreenFork — Healthy Restaurant Web App
 
-<!-- Replace `your-workflow.yml` with your actual workflow filename -->
-[![Build](https://github.com/Peippo1/GreenFork-Healthy-Restaurant-POC/actions/workflows/your-workflow.yml/badge.svg)](https://github.com/Peippo1/GreenFork-Healthy-Restaurant-POC/actions)
+<!-- Build badge for main workflow -->
+[![Build](https://github.com/Peippo1/GreenFork-Healthy-Restaurant-POC/actions/workflows/main.yml/badge.svg)](https://github.com/Peippo1/GreenFork-Healthy-Restaurant-POC/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![React](https://img.shields.io/badge/frontend-react-blue)
 ![FastAPI](https://img.shields.io/badge/backend-fastapi-green)
