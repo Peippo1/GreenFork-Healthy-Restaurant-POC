@@ -7,21 +7,21 @@ const dishes = [
   },
   {
     name: "Supergreen Salad",
-    description: "Spinach, avocado, edamame, and green goddess dressing.",
+    description: "Crisp baby spinach, creamy avocado, shelled edamame, juicy cucumber ribbons, and microgreens, all served over a bed of mixed greens and dressed in a zesty lime-herb vinaigrette",
     price: "£8.00",
-    image: "https://images.unsplash.com/photo-1556910103-1e0a0e1c5f97?auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1570197571499-166b36435e9f?q=80&w=812&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
-    name: "Falafel Wrap",
-    description: "Falafel, hummus, and pickled vegetables in a warm wrap.",
+    name: "Protein Power Bowl",
+    description: "Grilled chicken, chickpeas, avocado, tomato, and spinach over quinoa.",
     price: "£7.50",
-    image: "https://images.unsplash.com/photo-1562967916-eb82221dfb30?auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     name: "Roasted Veggie Flatbread",
     description: "Flatbread with roasted squash, red onion, and feta.",
     price: "£8.50",
-    image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1611599539392-0198d33c4c1e?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   }
 ]
 

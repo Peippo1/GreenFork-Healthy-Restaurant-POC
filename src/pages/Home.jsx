@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 
 const galleryImages = [
   {
-    src: "https://images.unsplash.com/photo-1605478377630-65926f9f3b6e?auto=format&fit=crop&w=800&q=80",
+    src: "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80",
     alt: "Fresh salad",
   },
   {
@@ -10,8 +10,8 @@ const galleryImages = [
     alt: "Organic vegetables",
   },
   {
-    src: "https://images.unsplash.com/photo-1592928303673-72a7b0f1c6e1?auto=format&fit=crop&w=800&q=80",
-    alt: "Farmer's field",
+    src: "https://images.unsplash.com/photo-1623123726825-6e3487e7a15e?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Finest produce",
   },
   {
     src: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80",
@@ -32,7 +32,7 @@ const Home = () => {
       <section
         className="bg-cover bg-center py-32 px-4 text-white"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1506354666786-959d6d497f1a?auto=format&fit=crop&w=1950&q=80')"
+          backgroundImage: "url('https://images.unsplash.com/photo-1494346480775-936a9f0d0877?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"
         }}
       >
         <div className="max-w-4xl mx-auto text-center bg-black/50 p-6 rounded">
@@ -69,7 +69,7 @@ const Home = () => {
             fresh, seasonal ingredients — many sourced directly from local farms.
           </p>
           <div className="inline-block bg-green-100 px-4 py-2 rounded">
-            <strong className="text-green-800">Featured Dish:</strong> Grilled Chicken Bowl with quinoa and tahini.
+            <strong className="text-green-800">With Love</strong> The finest ingredients from the heart of France, crafted into dishes that celebrate the flavors of nature.
           </div>
         </div>
       </section>
