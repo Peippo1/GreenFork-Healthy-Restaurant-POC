@@ -51,7 +51,7 @@ const Home = () => {
             Fresh, seasonal, healthy food made with love.
           </p>
           <a
-            href="/menu"
+            href="/menu.jsx"
             className={`inline-block bg-green-600 text-white px-6 py-3 rounded shadow hover:bg-green-700 transition transform duration-500 ${
               showContent ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
             }`}
